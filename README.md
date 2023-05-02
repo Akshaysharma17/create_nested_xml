@@ -15,10 +15,10 @@ To use this script, follow these steps:
 
 ```
 def create_xml_element(name, value):
-element = ET.Element(name)
-if value:
-  element.text = value
-  return element
+   element = ET.Element(name)
+   if value:
+      element.text = value
+      return element
 ```
 
 _This function creates an XML element with the given name and value._
